@@ -36,4 +36,14 @@ class SwaggerConfig {
                     .description("Paste your JWT Token here without the 'Bearer' prefix")
             )
         )
+        .servers(
+            listOf(
+                io.swagger.v3.oas.models.servers.Server()
+                    .url("https://task-manager-cb2b.up.railway.app")
+                    .description("Production server"),
+                io.swagger.v3.oas.models.servers.Server()
+                    .url("http://localhost:8080")
+                    .description("Local server")
+            )
+        )
 }
