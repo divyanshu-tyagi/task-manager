@@ -8,7 +8,7 @@
 
 A production-ready REST API for managing tasks with JWT authentication and AI-powered features.
 
-🔗 **Live Demo:** [Swagger UI](https://your-app.railway.app/swagger-ui/index.html)
+🔗 **Live Demo:** [Swagger UI](https://task-manager-cb2b.up.railway.app/swagger-ui/index.html)
 
 ---
 
