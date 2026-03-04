@@ -11,13 +11,12 @@ spring:
     expiration: ${JWT_EXPIRATION:86400000}
 
   datasource:
-#    url: jdbc:postgresql://localhost:5432/taskmanager
-#    username: postgres
-#    password: postgres
-    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/taskmanager}
-    username: ${DATABASE_USERNAME:postgres}
-    password: ${DATABASE_PASSWORD:postgres}
+    url: jdbc:postgresql://postgres.railway.internal:5432/railway
+    username: postgres
+    password: mGBahsoPRTmcBxloIBaLztmLHfjQBivU
     driver-class-name: org.postgresql.Driver
+
+
 
   jpa:
     hibernate:
